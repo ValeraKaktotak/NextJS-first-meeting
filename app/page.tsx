@@ -14,6 +14,7 @@ export default function Home() {
 
   A :i[lovely] language know as :abbr[HTML]{title="HyperText Markup Language"}.
 
+  <Hello />
   ::: 
   `
 
