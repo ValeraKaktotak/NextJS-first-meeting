@@ -1,4 +1,5 @@
 import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote/rsc'
+import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
 
 const components = {
@@ -12,7 +13,7 @@ const components = {
 const options = {
   mdxOptions: {
     remarkPlugins: [],
-    rehypePlugins: [rehypeSlug]
+    rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
   }
 }
 
