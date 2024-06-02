@@ -8,14 +8,16 @@ export const metadata = {
   description: 'Main page description',
 }
 
-export default function RootLayout({children}: {
+export default function RootLayout({children, modal}: {
   children: React.ReactNode
+  modal: React.ReactNode
 }) {
   return (
       <html lang="en">
           <body className={inter.className}>
-              <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+              <div id='home-page' className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                 {children}
+                <div id='modal'>{modal}</div>
               </div>
           </body>
       </html>
