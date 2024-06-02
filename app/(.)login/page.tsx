@@ -1,6 +1,6 @@
 import Modal from '@/app/components/Modal'
 
-export default function Login() {
+export default function LoginSoft() {
 	return (
 		<Modal>
 

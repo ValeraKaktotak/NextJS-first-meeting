@@ -15,7 +15,8 @@ export default function RootLayout({children, modal}: {
   return (
       <html lang="en">
           <body className={inter.className}>
-              <div id='home-page' className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <h1>HEADER</h1>
+              <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
                 {children}
                 <div id='modal'>{modal}</div>
               </div>

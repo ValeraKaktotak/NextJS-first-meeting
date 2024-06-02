@@ -1,7 +1,5 @@
-export default function Home() {
+export default function ModalComponent() {
 	return (
-			<div>Modal page component
-					
-			</div>
+			<div>Modal page component</div>
 	)
 }
